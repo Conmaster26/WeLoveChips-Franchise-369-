@@ -1,0 +1,251 @@
+<style>
+.chips-menu {
+    background: #fff8ed;
+    padding: 50px 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.chips-menu h2 {
+    color: #713b19;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.chips-menu .subtitle {
+    color: #795b43;
+    margin-bottom: 35px;
+}
+
+.chips-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.chips-card {
+    background: white;
+    width: 280px;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 5px 18px rgba(0,0,0,0.12);
+    transition: transform 0.3s;
+}
+
+.chips-card:hover {
+    transform: translateY(-8px);
+}
+
+.chips-card svg {
+    width: 100%;
+    height: 220px;
+}
+
+.chips-card h3 {
+    color: #713b19;
+    font-size: 23px;
+}
+
+.chips-card p {
+    color: #666;
+}
+
+.chips-price {
+    color: #d97706;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.chips-button {
+    display: inline-block;
+    background: #713b19;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.chips-button:hover {
+    background: #a65b25;
+}
+</style>
+
+<section class="chips-menu">
+
+    <h2>OUR CHIPS MENU 🍟</h2>
+
+    <p class="subtitle">
+        Fresh, crispy and delicious chips served in our
+        brown takeaway paper bags!
+    </p>
+
+    <div class="chips-container">
+
+        <!-- SMALL CHIPS -->
+        <div class="chips-card">
+
+            <svg viewBox="0 0 300 220"
+                 xmlns="http://www.w3.org/2000/svg">
+
+                <!-- Fries -->
+                <g fill="#f5b52e" stroke="#c77d18"
+                   stroke-width="2">
+                    <rect x="95" y="30" width="19" height="90"
+                          rx="5" transform="rotate(-12 95 30)"/>
+                    <rect x="120" y="15" width="19" height="110"
+                          rx="5" transform="rotate(-5 120 15)"/>
+                    <rect x="145" y="20" width="19" height="105"
+                          rx="5" transform="rotate(5 145 20)"/>
+                    <rect x="170" y="30" width="19" height="90"
+                          rx="5" transform="rotate(12 170 30)"/>
+                    <rect x="195" y="40" width="18" height="80"
+                          rx="5" transform="rotate(17 195 40)"/>
+                    <rect x="75" y="48" width="18" height="75"
+                          rx="5" transform="rotate(-18 75 48)"/>
+                </g>
+
+                <!-- Paper bag -->
+                <path d="M75 95 L225 95 L210 205
+                         Q150 215 90 205 Z"
+                      fill="#bd8851" stroke="#82532e"
+                      stroke-width="3"/>
+
+                <path d="M75 95 L225 95 L215 120
+                         L85 120 Z"
+                      fill="#d6a46d"/>
+
+                <text x="150" y="155" text-anchor="middle"
+                      font-size="18" font-weight="bold"
+                      fill="#633719">WE LOVE</text>
+
+                <text x="150" y="177" text-anchor="middle"
+                      font-size="19" font-weight="bold"
+                      fill="#633719">CHIPS</text>
+
+            </svg>
+
+            <h3>Small Chips</h3>
+            <p>Perfect for a quick and tasty snack!</p>
+            <div class="chips-price">R20</div>
+
+            <a href="#order" class="chips-button">
+                Order Now
+            </a>
+
+        </div>
+
+
+        <!-- MEDIUM CHIPS -->
+        <div class="chips-card">
+
+            <svg viewBox="0 0 300 220"
+                 xmlns="http://www.w3.org/2000/svg">
+
+                <g fill="#f5b52e" stroke="#c77d18"
+                   stroke-width="2">
+                    <rect x="70" y="20" width="20" height="115"
+                          rx="5" transform="rotate(-17 70 20)"/>
+                    <rect x="100" y="5" width="20" height="130"
+                          rx="5" transform="rotate(-10 100 5)"/>
+                    <rect x="130" y="0" width="20" height="135"
+                          rx="5"/>
+                    <rect x="160" y="5" width="20" height="130"
+                          rx="5" transform="rotate(8 160 5)"/>
+                    <rect x="190" y="15" width="20" height="120"
+                          rx="5" transform="rotate(15 190 15)"/>
+                    <rect x="220" y="30" width="20" height="100"
+                          rx="5" transform="rotate(20 220 30)"/>
+                    <rect x="45" y="55" width="20" height="85"
+                          rx="5" transform="rotate(-22 45 55)"/>
+                </g>
+
+                <path d="M55 105 L245 105 L225 210
+                         Q150 220 75 210 Z"
+                      fill="#bd8851" stroke="#82532e"
+                      stroke-width="3"/>
+
+                <path d="M55 105 L245 105 L235 130
+                         L65 130 Z"
+                      fill="#d6a46d"/>
+
+                <text x="150" y="160" text-anchor="middle"
+                      font-size="20" font-weight="bold"
+                      fill="#633719">WE LOVE</text>
+
+                <text x="150" y="185" text-anchor="middle"
+                      font-size="23" font-weight="bold"
+                      fill="#633719">CHIPS</text>
+
+            </svg>
+
+            <h3>Medium Chips</h3>
+            <p>More crispy goodness to enjoy!</p>
+            <div class="chips-price">R44</div>
+
+            <a href="#order" class="chips-button">
+                Order Now
+            </a>
+
+        </div>
+
+
+        <!-- LARGE CHIPS -->
+        <div class="chips-card">
+
+            <svg viewBox="0 0 300 220"
+                 xmlns="http://www.w3.org/2000/svg">
+
+                <g fill="#f5b52e" stroke="#c77d18"
+                   stroke-width="2">
+                    <rect x="55" y="20" width="22" height="130"
+                          rx="5" transform="rotate(-18 55 20)"/>
+                    <rect x="85" y="0" width="22" height="145"
+                          rx="5" transform="rotate(-12 85 0)"/>
+                    <rect x="115" y="-5" width="22" height="150"
+                          rx="5" transform="rotate(-5 115 -5)"/>
+                    <rect x="145" y="-5" width="22" height="150"
+                          rx="5"/>
+                    <rect x="175" y="0" width="22" height="145"
+                          rx="5" transform="rotate(8 175 0)"/>
+                    <rect x="205" y="15" width="22" height="135"
+                          rx="5" transform="rotate(15 205 15)"/>
+                    <rect x="235" y="35" width="22" height="110"
+                          rx="5" transform="rotate(20 235 35)"/>
+                    <rect x="35" y="60" width="22" height="90"
+                          rx="5" transform="rotate(-22 35 60)"/>
+                </g>
+
+                <path d="M40 110 L260 110 L235 215
+                         Q150 225 65 215 Z"
+                      fill="#bd8851" stroke="#82532e"
+                      stroke-width="3"/>
+
+                <path d="M40 110 L260 110 L250 135
+                         L50 135 Z"
+                      fill="#d6a46d"/>
+
+                <text x="150" y="165" text-anchor="middle"
+                      font-size="22" font-weight="bold"
+                      fill="#633719">WE LOVE</text>
+
+                <text x="150" y="190" text-anchor="middle"
+                      font-size="25" font-weight="bold"
+                      fill="#633719">CHIPS</text>
+
+            </svg>
+
+            <h3>Large Chips</h3>
+            <p>Big portions for the ultimate chip lover!</p>
+            <div class="chips-price">R55</div>
+
+            <a href="#order" class="chips-button">
+                Order Now
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
